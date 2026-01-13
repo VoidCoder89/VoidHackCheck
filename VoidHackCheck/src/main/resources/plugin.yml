@@ -1,0 +1,19 @@
+name: VoidHackCheck
+version: 1.0.0
+main: dev.voidcoder.hackcheck.VoidHackCheck
+api-version: 1.20
+
+commands:
+  check:
+    description: Avvia un controllo hack
+    usage: /check <player>
+    permission: staff.check
+
+  uncheck:
+    description: Termina un controllo hack
+    usage: /uncheck <player>
+    permission: staff.check
+
+permissions:
+  staff.check:
+    default: op
